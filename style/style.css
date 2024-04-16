@@ -1,0 +1,139 @@
+*{
+padding: 0;
+margin: 0;
+}
+h1,h2,h3,p{
+    padding: 0;
+    margin: 0;
+    }
+a{
+    text-decoration: none;
+}
+ul,ol{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+button{
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+body{
+    font-family: 'Gilroy';
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+header,footer{
+    background: #fffbf6;
+}
+.header-top{
+    padding-top: 22px;
+    padding-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo>span{
+    max-width: 255px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 138%;
+    letter-spacing: 0.08em;
+    color: #2b2a28;
+    padding-left: 30px;
+}
+.social{
+    font-weight: 600;
+    font-style: 12px;
+    line-height: 0.08em;
+    color: #2b2a28;
+    padding-bottom: 4px;
+}
+.media{
+    display: flex;
+    margin: 10px;
+}
+.media>li{
+    margin-right: 4px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+}
+.tel{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 40px;
+}
+.tel>a{
+    font-weight: 700;
+    font-style: 20px;
+    line-height: 80%;
+    color: #2b2a28;
+    padding-bottom: 7px;
+}
+.tel>p{
+    font-weight: 400;
+    font-style: 12px;
+    line-height: 150%;
+    letter-spacing: 0.08em;
+    color: #2b2a28;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 27px;
+}
+.button>button{
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(203, 135, 52, 0.2);
+    background: linear-gradient(180deg, #f39c32 0%, #cb8734 100%);
+    padding: 14px 26px;
+    font-weight: 700;
+    font-style: 13px;
+    line-height: 123%;
+    color: #fff;
+    margin-bottom: 7px;
+}
+.button>p{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 164%;
+    letter-spacing: 0.08em;
+    color:#2b2a28
+}
+.buttons{
+    display: flex;
+}
+.button_brown{
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(203, 135, 52, 0.2);
+    background: linear-gradient(180deg, #3D1E19 0%, #3D1E19 100%);
+    padding: 14px 26px;
+    font-weight: 700;
+    font-style: 13px;
+    line-height: 123%;
+    color: #3D1E19;
+    margin-bottom: 7px;
+}
+.button_white{
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(203, 135, 52, 0.2);
+    background: linear-gradient(180deg, #fff 0%, #fff 100%);
+    padding: 14px 26px;
+    font-weight: 700;
+    font-style: 13px;
+    line-height: 123%;
+    color: #fff;
+    margin-bottom: 7px;
+}
