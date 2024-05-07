@@ -20,7 +20,7 @@ button{
   cursor: pointer;
 }
 body{
-    font-family: 'Gilroy', ;
+    font-family: 'Gilroy';
 }
 .container{
     max-width: 1170px;
@@ -153,27 +153,10 @@ header,footer{
     display: flex;
 }
 .contact-comp>li{
-    box-shadow: 0 0 20px 0 rgba(43, 42, 40, 0.2);
-    background: #fff;
-    box-sizing: content-box;
-    height: 72px;
-    display: flex;
-    align-items: center;
+    margin-right: 84px;
 }
 .contact-comp>li>a{
-    padding: 25px 60px;
-    font-size: 16px;
-    line-height: 146%;
-    letter-spacing: 0.08em;
     color: #000;
-}
-.contact-comp>li:first-child{
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-}
-.contact-comp>li:last-child{
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
 }
 .text{
     padding-left: 370px;
@@ -184,15 +167,13 @@ header,footer{
     line-height: 132%;
     color: #2b2a28;
     max-width: 539px;
-    max-height: 145px;
 }
 .textt{
     font-weight: 400;
     font-size: 18px;
     line-height: 167%;
     color: #2b2a28;
-    max-width: 495px;
-    max-height: 53px;
+    max-width: 487px;
 }
 .section-top{
     display: flex;
@@ -210,4 +191,23 @@ header,footer{
     line-height: 123%;
     color: #fff;
     margin-bottom: 7px;
+}
+.section-right-border{
+    display: flex;
+    align-items: center;
+}
+.bani{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bani>img{
+    padding-left: 44px;
+    padding-right: 12px;
+}
+.bani>h1{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #cb8734;
 }
