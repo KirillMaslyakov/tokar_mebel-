@@ -211,3 +211,115 @@ header,footer{
     line-height: 100%;
     color: #cb8734;
 }
+.container-2{
+    max-width: 1421px;
+    margin: 89px 89px 0 357px;
+}
+.izo{
+    background: url(/img/fon.png);
+    background-repeat: no-repeat;
+}
+.izo>h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 161%;
+    color: #2b2a28;
+}
+.top{
+    display: flex;
+}
+.container-3{
+    max-width: 1170px;
+    margin: 317px 373px;
+}
+.section-2-top>h1{
+    max-width: 372px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    color: #2b2a28;
+}
+.stroq-top{
+    display: flex;
+}
+.stroq-botom{
+    display: flex;
+    margin-top: 32px;
+}
+.stoq-slide{
+    padding-left: 35px;
+}
+.button-3{
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(203, 135, 52, 0.2);
+    background: linear-gradient(180deg, #f39c32 0%, #cb8734 100%);
+    padding: 14px 26px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    max-width: 280px;
+}
+.button-3{
+    margin-left: 35px;
+    margin-top: 34px;
+}
+.section-3-botom{
+    display: flex;
+    align-items: center;
+}
+.bani-2{
+    display: flex;
+    align-items: center;
+    padding-left: 44px;
+}
+.bani-2>img{
+    padding-right: 12px;
+}
+.bani-2>h1{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #cb8734;
+}
+
+
+.footer-top{
+    display: flex;
+}
+.home{
+    display: flex;
+}
+.home-2>li{
+    box-shadow: 0 0 20px 0 rgba(43, 42, 40, 0.2);
+    background: #3d1e19;
+    box-sizing: content-box;
+    height: 72px;
+    display: flex;
+}
+.home-2>li>a{
+    padding: 25px 60px;
+    font-size: 16px;
+    line-height: 146%;
+    letter-spacing: 0.08em;
+    color: #fff;
+}
+.home-2>li:first-child{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.home-2>li:last-child{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.contact-comp-2{
+    padding-left: 75px;
+    display: flex;
+}
+.contact-comp-2>li{
+    margin-right: 84px;
+}
+.contact-comp-2>li>a{
+    color: #000;
+}
